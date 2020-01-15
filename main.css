@@ -191,6 +191,7 @@ nav {
 
 .features_list {
   list-style-position: inside;
+  padding: 0 0 25px 0;
 }
 
 .comment {
@@ -217,9 +218,9 @@ nav {
   padding: 10px;
 }
 
-/* REGISTRATION FORM */
+/* FORMS */
 
-.registration_form {
+form {
   display: flex;
   flex-direction: column;
   width: 90%;
@@ -246,7 +247,7 @@ hr {
   margin-bottom: 15px;
 }
 
-.registration_button {
+.form_button {
   background-color: black;
   color: white;
   padding: 16px 20px;
@@ -257,7 +258,7 @@ hr {
   opacity: 0.9;
 }
 
-.register_login {
+.form_redirect {
   width: 80%;
   margin-left: auto;
   margin-right: auto;
