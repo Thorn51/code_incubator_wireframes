@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" type="text/css" href="main.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <title>Idea Form Wireframe</title>
+  </head>
+  <body>
+    <nav role="navigation">
+      <ul>
+        <li class="nav_logo"><a href="#home">Code Incubator</a></li>
+      </ul>
+    </nav>
+    <form class="idea_form">
+      <h2 class="section_title">Project Idea</h2>
+      <hr />
+      <label for="name">Project Name</label>
+      <input type="text" name="name" />
+      <label for="idea">Share your coding project idea:</label>
+      <textarea name="idea" cols="30" rows="15" class="comment"></textarea>
+      <label for="status">Project Status</label>
+      <select name="status">
+        <option value="idea">Idea</option>
+        <option value="development">In Development</option>
+        <option value="complete">Complete</option>
+      </select>
+      <label for="github">GitHub Repo URL (Optional)</label>
+      <input type="url" name="github" />
+      <button type="submit" class="form_button">Submit</button>
+    </form>
+  </body>
+</html>
