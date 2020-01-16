@@ -24,18 +24,24 @@
     <form class="idea_form">
       <h2 class="section_title">Project Idea</h2>
       <hr />
-      <label for="name">Project Name</label>
-      <input type="text" name="name" />
-      <label for="idea">Share your coding project idea:</label>
-      <textarea name="idea" cols="30" rows="15" class="comment"></textarea>
-      <label for="status">Project Status</label>
-      <select name="status">
+      <label for="project_name">Project Name</label>
+      <input type="text" name="name" id="project_name" />
+      <label for="idea_text">Share your coding project idea:</label>
+      <textarea
+        name="idea"
+        cols="30"
+        rows="15"
+        class="comment"
+        id="idea_text"
+      ></textarea>
+      <label for="project_status">Project Status</label>
+      <select name="status" id="project_status">
         <option value="idea">Idea</option>
         <option value="development">In Development</option>
         <option value="complete">Complete</option>
       </select>
       <label for="github">GitHub Repo URL (Optional)</label>
-      <input type="url" name="github" />
+      <input type="url" name="github" id="github" />
       <button type="submit" class="form_button">Submit</button>
     </form>
     <footer>
